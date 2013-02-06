@@ -16,7 +16,7 @@ char * top (stringStack stack);
 int size (stringStack stack);
 char * get_nth (stringStack stack, int nth);
 void print (stringStack stack);
-
+/*I am adding these comments to see if this is working... awesome! P.S. Hi from Nedi*/
 int main (void)
 
 {
