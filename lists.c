@@ -27,16 +27,16 @@ int main (void)
     initializeStack (&notes);
     
     
-    push (&bills, "Mortgage");
-    push (&bills, "Doctor's Bill");
-    push (&bills, "Credit Card");
+    push (&bills, "Puppies");
+    push (&bills, "Rainbows");
+    push (&bills, "Cotton Candy");
     
     printf ("Bills : %d", empty (bills));
     
     printf ("\nMagazines : %d\n", empty (magazines));
     
-    push (&magazines, "Communications of the ACM - March 2009");
-    push (&magazines, "CS Education Bulletin - Spring 2009");
+    push (&magazines, "Heartwarming Stories - March 2009");
+    push (&magazines, "Cooking with Blueberries - Spring 2009");
      
     printf ("Bills:\n");
     
@@ -62,8 +62,8 @@ int main (void)
     
     printf ("\nMagazines : %d", empty (magazines));
     
-    push (&bills, "Mortgage");
-    push (&bills, "Doctor's Bill");
+    push (&bills, "Puppies");
+    push (&bills, "Cotton Candy);
     
     printf ("\n\nBills : %d", size (bills));
     
