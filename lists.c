@@ -69,6 +69,8 @@ int main (void)
     
     printf ("\n\nBills : %s", get_nth (bills, 1));
     
+    printf ("\n\nBills : %s", get_nth (bills, 2));
+
   return 0;
 
 }
